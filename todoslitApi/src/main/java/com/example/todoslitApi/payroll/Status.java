@@ -1,5 +1,5 @@
 package com.example.todoslitApi.payroll;
 
 enum Status {
-    IN_PROGRESS, COMPLTED, CANCELLED
+    IN_PROGRESS, COMPLETED, CANCELLED
 }
