@@ -40,7 +40,12 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/employees/{id}")
-    void deleteEmployee(@PathVariable Long id) {
-        repository.deleteById(id);
+    Integer deleteEmployee(@PathVariable Long id) {
+        try {
+            repository.deleteById(id);
+        } catch (Exception ex) {
+            return 0;
+        }
+        return 1;
     }
 }
