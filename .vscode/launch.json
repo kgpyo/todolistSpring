@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PayrollApplication",
+            "request": "launch",
+            "mainClass": "com.example.todoslitApi.payroll.PayrollApplication",
+            "projectName": "todoslitApi"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-TodoslitApiApplication<todoslitApi>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
