@@ -17,8 +17,20 @@ public class Employee {
 
     private @Id @GeneratedValue Long id;
     @NonNull
-    private String name;
+    private String firstName;
+    @NonNull
+    private String lastName;
     @NonNull
     private String role;
+
+    public String getName() {
+        return this.firstName + " " + this.lastName;
+    }
+
+    public void setName(String name) {
+        String[] parts = name.split(" ");
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
 
 }
