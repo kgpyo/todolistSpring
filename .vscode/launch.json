@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TodoslitApiApplication<todoslitApi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.todoslitApi.TodoslitApiApplication",
+            "projectName": "todoslitApi",
+            "args": ""
+        }
+    ]
+}
